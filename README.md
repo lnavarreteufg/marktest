@@ -75,7 +75,7 @@ function makeCode () {
 		return;
 	}
 
-	qrcode.makeCode("https://docs.google.com/forms/d/e/1FAIpQLSceHlBw5KyfBwki1SdbF36ApOyv09Dn5PqZOYkhQvV6lDBdzQ/viewform?usp=pp_url&entry.1952372594="+vId+"&entry.1991301830="+encodeURIComponent(vNombre)+"&entry.1034919208="+encodeURIComponent(vTransporte));
+	qrcode.makeCode("https://docs.google.com/forms/d/e/1FAIpQLSceHlBw5KyfBwki1SdbF36ApOyv09Dn5PqZOYkhQvV6lDBdzQ/formResponse?usp=pp_url&entry.1952372594="+vId+"&entry.1991301830="+encodeURIComponent(vNombre)+"&entry.1034919208="+encodeURIComponent(vTransporte));
 }
 
 $("#btn").
