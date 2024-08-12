@@ -70,7 +70,6 @@ function makeCode () {
 	localStorage.trasporte = vTransporte;
 	localStorage.workid = vId;
 	localStorage.nombre = vNombre;
-	localStorage.area = vArea;
 	
 	vTransporte = vTransporte.replace(" ","_");
 	vId = vId.replace(" ","_");
