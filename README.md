@@ -69,10 +69,7 @@ function makeCode () {
 	localStorage.trasporte = vTransporte;
 	localStorage.workid = vId;
 	localStorage.nombre = vNombre;
-	
-	vId = vId.replace(" ","_");
-	vNombre = vNombre.replace(" ","_");
-	
+
 	if (vTransporte+vId+vNombre=="") {
 		alert("Debe llenar todos los campos");
 		return;
